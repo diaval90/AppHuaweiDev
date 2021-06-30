@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "8946300682",
+    "firebase_url": "https://senasoftcauca.firebaseio.com",
+    "project_id": "senasoftcauca",
+    "storage_bucket": "senasoftcauca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8946300682:android:77aff8c0a167040d252cf3",
+        "android_client_info": {
+          "package_name": "com.ctpi.senasoftcauca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8946300682-plrmtt2d4oc1hcgqp5vtr47v6u7b5c5j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ctpi.senasoftcauca",
+            "certificate_hash": "7908b30811358ddf16355bb90a4d5de99de9f182"
+          }
+        },
+        {
+          "client_id": "8946300682-8l1c8m0eqh240tqbt56srfcjrqs82qtg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBAZTH2yQGRoiCJpDOWKPWaIg2YcCkQuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8946300682-8l1c8m0eqh240tqbt56srfcjrqs82qtg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBack"
+    tools:context=".JugarFragment">
+
+
+    <Button
+        android:id="@+id/btnJugarSolo"
+        android:layout_width="93dp"
+        android:layout_height="96dp"
+        android:background="@drawable/boton_de_play"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.374" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="111dp"
+        android:layout_height="36dp"
+        android:gravity="center"
+        android:text="Juega"
+        android:textColor="@color/colorHint"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="284dp"
+        android:layout_height="108dp"
+        android:gravity="center"
+        android:text="En esta seccion podras jugar en solitario para que no te aburras si no tienes compañia"
+        android:textColor="@color/colorHint"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnJugarSolo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.649" />
+</androidx.constraintlayout.widget.ConstraintLayout>

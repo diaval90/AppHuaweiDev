@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBack">
+
+    <TextView
+        android:id="@+id/txtPregunta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="271dp"
+        android:layout_height="131dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPregunta">
+
+        <RadioButton
+            android:id="@+id/opc1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_diseno"
+            android:text="RadioButton" />
+
+        <RadioButton
+            android:id="@+id/opc2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_diseno"
+            android:text="RadioButton" />
+
+        <RadioButton
+            android:id="@+id/opc3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_diseno"
+            android:text="RadioButton" />
+
+        <RadioButton
+            android:id="@+id/opc4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_diseno"
+            android:text="RadioButton" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSiguiente"
+        android:layout_width="99dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="162dp"
+        android:background="@drawable/btn_save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <Chronometer
+        android:id="@+id/cronometro"
+        android:layout_width="136dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="28dp"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></Chronometer>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

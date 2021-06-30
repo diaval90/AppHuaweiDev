@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Reto Kids</string>
+    <string name="btn_Guardar">Guardar</string>
+    <string name="txt_Bienvenidos">Bienvenidos</string>
+    <string name="btn_Codigo_Barras">Codigo de Barras</string>
+    <string name="Login">Inicio</string>
+    <string name="Login2">Juega</string>
+    <string name="Login3">Reta</string>
+    <string name="txt_Registrarse">Registrar </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_login">Iniciar Sesion</string>
+    <string name="hint_edit_email">Nombre de Usuario</string>
+    <string name="hint_input_pass">Codigo de Barras</string>
+    <string name="title_register">Registro</string>
+    <string name="Foto">tomar foto</string>
+
+</resources>
